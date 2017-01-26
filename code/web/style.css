@@ -1,0 +1,127 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #c2bead;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #2B4F6C;
+	background-image: url(images/Untitled1.png);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+a, a:link, a:visited { color: #34baf9; text-decoration: none; }
+a:hover { color: #CCFF00; text-decoration: underline; }
+
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 { color: #e2c934; }
+h1 { font-size: 24px; font-weight: normal; margin: 0 0 30px 0; padding: 5px 0; }
+h2 { font-size: 20px; font-weight: normal; margin: 0 0 30px 0; font-weight: normal; }
+h3 { font-size: 16px; margin: 0 0 15px 0; padding: 0; padding: 0; font-weight: normal;  }
+h4 { font-size: 14px; margin: 0 0 15px 0; padding: 0; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+
+
+
+
+.btn_more a {
+	display: inline-block;
+	font-weight: bold;
+	color: #dcd9cb;
+}
+
+.btn_more a span {
+	font-size: 16px;
+}
+
+.btn_more a:hover {
+	color: #CCFF00;
+	text-decoration: none;
+}
+
+.service_list { margin: 40px 0 0 30px; padding: 0; list-style: none; }
+.service_list li { margin: 0; padding: 0; }
+.service_list li a { display: block; height: 25px; margin-bottom: 20px; padding-left: 35px; }
+.service_list li .service_one { background: url(images/list.png) center left no-repeat; }
+.service_list li .service_two { background: url(images/list.png) center left no-repeat; }
+.service_list li .service_three { background: url(images/list.png) center left no-repeat; }
+.service_list li .service_four { background: url(images/list.png) center left no-repeat; }
+
+.admsn_list { margin: 40px 0 0 30px; padding: 0; list-style: none; }
+.admsn_list li { margin: 0; padding: 0; }
+.admsn_list li a { display: block; height: 25px; margin-bottom: 20px; padding-left: 35px; }
+.admsn_list li .ar_one { background: url(images/list.png) center left no-repeat; }
+.admsn_list li .ar_two { background: url(images/list.png) center left no-repeat; }
+.admsn_list li .ar_three { background: url(images/list.png) center left no-repeat; }
+
+
+.branch_list{ margin: 40px 0 0 30px; padding: 0; list-style: none; }
+.branch_list li { margin: 0; padding: 0; }
+.branch_list li a { display: block; height: 25px; margin-bottom: 20px; padding-left: 35px; }
+.branch_list li .b_one{ background: url(images/list.png) center left no-repeat; }
+.branch_list li .b_two { background: url(images/list.png) center left no-repeat; }
+.branch_list li .b_three { background: url(images/list.png) center left no-repeat; }
+
+
+.base_list { margin: 40px 0 0 30px; padding: 0; list-style: none; }
+.base_list li { margin: 0; padding: 0; }
+.base_list li a { display: block; height: 25px; margin-bottom: 20px; padding-left: 35px; }
+.base_list li .bp_one { background: url(images/list.png) center left no-repeat; }
+.base_list li .bp_two { background: url(images/list.png) center left no-repeat; }
+.base_list li .bp_three { background: url(images/list.png) center left no-repeat; }
+
+
+.topp_list { margin: 40px 0 0 30px; padding: 0; list-style: none; }
+.topp_list li { margin: 0; padding: 0; }
+.topp_list li a { display: block; height: 25px; margin-bottom: 20px; padding-left: 35px; }
+.topp_list li .tp_one { background: url(images/list.png) center left no-repeat; }
+.topp_list li .tp_two { background: url(images/list.png) center left no-repeat; }
+.topp_list li .tp_three { background: url(images/list.png) center left no-repeat; }
+
+.topc_list { margin: 40px 0 0 30px; padding: 0; list-style: none; }
+.topc_list li { margin: 0; padding: 0; }
+.topc_list li a { display: block; height: 25px; margin-bottom: 20px; padding-left: 35px; }
+.topc_list li .tp_four { background: url(images/list.png) center left no-repeat; }
+.topc_list li .tp_five { background: url(images/list.png) center left no-repeat; }
+.topc_list li .tp_six { background: url(images/list.png) center left no-repeat; }
+
+
+
+#gallery_container { 
+	clear: both; 
+	margin-top: 30px; 
+	padding-right: 40px; 
+	width: 650px; 
+	height: 320px; 
+	overflow: auto; 
+} 
+
+#gallery_container .gallery_box {
+	clear: both;
+	display: block; 
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+ 
+.gallery_box img {
+	float: left;
+	width: 120px;
+	height: 100px;
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 3px 30px 0 0;
+}
+
+#footer {
+	clear: both;
+	width: 600px;
+	padding: 20px 0;
+	text-align: center;
+}

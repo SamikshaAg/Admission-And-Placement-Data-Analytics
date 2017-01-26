@@ -1,0 +1,63 @@
+body{
+background-color:#2b4f6c;
+}
+table { 
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 80%; 
+border-collapse: collapse; 
+border-spacing: 0; 
+}
+
+#gallery_container { 
+	clear: both; 
+	margin-top: 30px; 
+	overflow: auto; 
+} 
+
+#gallery_container .gallery_box {
+	clear: both;
+	display: block; 
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+ 
+.gallery_box img{
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+#tt{
+background-color:red;
+text-align : center;
+margin-left : 200px;
+margin-RIGHT : 200px;
+}
+#t{
+width:80%;
+text-align : center;
+margin-left : 10%;
+margin-RIGHT : 10%;
+}
+td, th { 
+border: 1px solid transparent; /* No more visible border */
+height: 30px; 
+transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {
+background: #DFDFDF;  /* Darken header a bit */
+font-weight: bold;
+}
+
+td {
+background: #FAFAFA;
+text-align: center;
+}
+tr:nth-child(even) td { background: #F1F1F1; }   
+tr:nth-child(odd) td { background: #FEFEFE; }  
+tr td:hover { background: #666; color: #FFF; }
+
+h1{
+    color: white;
+}

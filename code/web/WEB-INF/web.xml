@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>Performer</servlet-name>
+        <servlet-class>Top_Performer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>T_Company</servlet-name>
+        <servlet-class>T_Company</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Searching</servlet-name>
+        <servlet-class>Searching</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Admission</servlet-name>
+        <servlet-class>Admission</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BranchPerformance</servlet-name>
+        <servlet-class>BranchPerformance</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BaselineCal</servlet-name>
+        <servlet-class>BaselineCal</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>Performer</servlet-name>
+        <url-pattern>/Performer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>T_Company</servlet-name>
+        <url-pattern>/T_Company</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Searching</servlet-name>
+        <url-pattern>/Searching</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Admission</servlet-name>
+        <url-pattern>/Admission</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BranchPerformance</servlet-name>
+        <url-pattern>/BranchPerformance</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BaselineCal</servlet-name>
+        <url-pattern>/BaselineCal</url-pattern>
+    </servlet-mapping>
+   
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
